@@ -3,14 +3,14 @@
     "description": "d3js samples",
     "version": "0.0.1",
     "devDependencies": {
-    "local-web-server": "~0.5.14"
-},
+        "local-web-server": "~0.5.14"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/sweco-secarl/d3js_samples.git"
     },
     "local-web-server": {
-        "port": 8000
+        "port": "8000"
     },
     "scripts": {
         "start": "ws"
