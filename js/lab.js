@@ -97,6 +97,7 @@ $(document).ready(function() {
     }
 
     function createLineChart(data) {
+        $('span').text('Data för våning: ' + data.id);
         data = data.temperatures;
 
         var svg = $('#dayTemp');
